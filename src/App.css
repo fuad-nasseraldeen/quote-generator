@@ -79,3 +79,99 @@ h1{
     grid-column: 2/4;
     grid-row: 1;
 }
+    .main {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px;
+      margin: 5px;
+      border-radius: 4px;
+      background-color: #56cbdb;
+      color: #262834;
+      font-weight: bold;
+  
+  li {
+    cursor: pointer;
+    list-style-type: none;
+    width: 40px;
+    height: 40px;
+    color: #D0D8DB;
+    border-radius: 50%;
+    background: #D0D8DB;
+    box-shadow: 2px 2px 6px rgba(#D0D8DB, .5);
+
+  }
+      }
+
+    .linkedin-icon {
+        fill:  #0078D4;
+        width: 30px;
+        height: 30px;
+        padding-top: 5px;
+    }
+    .gmail-icon {
+        width: 30px;
+        height: 30px;
+        padding-top: 5px;
+      }
+      .whatsapp-icon {
+          fill: #31B34A;
+        width: 30px;
+        height: 30px;
+        padding-top: 5px;
+      }
+      .github-icon {
+          fill: #000;
+        width: 30px;
+        height: 30px;
+        padding-top: 5px;
+      }
+      .instagram-icon {
+          fill: #cc39a4;
+        width: 30px;
+        height: 30px;
+        padding-top: 5px;
+      }
+
+.icon {
+  user-select: none;
+  position: absolute;
+  color: #D0D8DB;
+  left: 15px;
+  top: 6px;
+  h1 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: .9em;
+    color: #2A4870;
+  }
+  .btn {
+    position: absolute;
+    right: -27px;
+    background: rgba(#D0D8DB, .9);
+    color: #2A4870;
+    top: 7px;
+    padding: 3px 7px;
+    border-radius: 50%;
+  }
+}
+
+.one {
+  left: 0;
+}
+
+.two {
+  left: 50px;
+}
+
+.three {
+  left: 100px;
+}
+
+.four {
+  left: 150px;
+}
+
+.five {
+  left: 200px;
+}
